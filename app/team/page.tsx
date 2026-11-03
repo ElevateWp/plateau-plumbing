@@ -9,7 +9,7 @@ import HomePlumbers from '@/components/sections/home/HomeDentists';
 
 export const metadata: Metadata = createMetadata({
   title: 'Our team',
-  description: 'JNF Plumbing Cairns provides emergency plumbing, leak repairs, hot water systems and drainage services. Call +61 417 890 910.',
+  description: 'Plateau Plumbing provides 24-hour emergency plumbing, leak repairs, hot-water systems, filtration and renovation plumbing. Call +61 421 358 045.',
   pathname: '/team/',
 });
 
@@ -20,9 +20,9 @@ export default function TeamPage() {
         <div className="mx-auto max-w-site px-6 md:px-12">
           <Breadcrumbs items={[{ name: 'Our team', path: '/team/' }]} />
           <div className="mt-8 max-w-3xl">
-            <span className="mb-3 block font-body text-13 font-medium uppercase tracking-wider text-brand">JNF Plumbing Cairns</span>
-            <WordRevealH1 text="Meet Jake, your local plumbing contractor." />
-            <p className="mt-6 font-body text-17 leading-relaxed text-forest-ink/85 md:text-21">JNF Plumbing Cairns serves Cairns, Brinsmead and surrounding areas. Contact Jake about burst pipes, leaks, hot water or drainage.</p>
+            <span className="mb-3 block font-body text-13 font-medium uppercase tracking-wider text-brand">Plateau Plumbing</span>
+            <WordRevealH1 text="Meet Todd, your local plumber." />
+            <p className="mt-6 font-body text-17 leading-relaxed text-forest-ink/85 md:text-21">Plateau Plumbing serves the Atherton Tablelands and surrounding areas. Contact Todd about emergency leaks, hot water, filtration, maintenance or renovations.</p>
           </div>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function TeamPage() {
 
       <section className="bg-forest py-14 text-paper md:py-20">
         <div className="mx-auto flex max-w-site flex-col items-start justify-between gap-6 px-6 md:flex-row md:items-center md:px-12">
-          <div><span className="mb-2 block font-body text-13 font-semibold uppercase tracking-wider text-paper/65">JNF Plumbing Cairns</span><h2 className="font-display text-26 md:text-33">Tell us about your project.</h2></div>
+          <div><span className="mb-2 block font-body text-13 font-semibold uppercase tracking-wider text-paper/65">Plateau Plumbing</span><h2 className="font-display text-26 md:text-33">Tell us about your project.</h2></div>
           <Link href="/quote/" className="inline-flex min-h-12 items-center justify-center bg-paper px-6 font-body text-15 font-semibold text-forest">Request a quote</Link>
         </div>
       </section>

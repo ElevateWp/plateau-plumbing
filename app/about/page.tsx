@@ -14,17 +14,17 @@ import { CLINIC_INFO, DENTISTS } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'About JNF Plumbing Cairns',
+  title: 'About Plateau Plumbing',
   description:
-    'Learn about JNF Plumbing Cairns and its plumbing repairs services.',
+    'Learn about Plateau Plumbing and its plumbing repairs services.',
   pathname: '/about/',
 });
 
 const TIMELINE = [
   {
-    year: 'Cairns and surrounding areas',
+    year: 'Atherton Tablelands',
     title: 'Plumbing service',
-    description: 'JNF Plumbing Cairns helps with burst pipes, leak repairs, hot water systems, blocked drains and plumbing inspections.',
+    description: 'Todd at Plateau Plumbing handles emergency leaks, hot-water repairs and replacements, water filtration, outdoor showers, property maintenance and renovation plumbing.',
   },
 ];
 
@@ -59,11 +59,11 @@ export default function AboutPage() {
             <div className="lg:col-span-8">
               <AnimateOnScroll animation="fade-right" duration={0.8}>
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 font-medium uppercase tracking-wider">
-                  About JNF Plumbing Cairns
+                  About Plateau Plumbing
                 </span>
-                <WordRevealH1 text="Plumbing repairs for Cairns and surrounding areas." />
+                <WordRevealH1 text="Plumbing repairs for Atherton Tablelands." />
                 <div className="mt-8">
-                  <ScrubbedParagraph text="JNF Plumbing Cairns helps with burst pipes, leak repairs, hot water systems, blocked drains and plumbing inspections. Call to discuss your job and request a quote." />
+                  <ScrubbedParagraph text="Todd at Plateau Plumbing handles emergency leaks, hot-water repairs and replacements, water filtration, outdoor showers, property maintenance and renovation plumbing. Call to discuss your job and request a quote." />
                 </div>
               </AnimateOnScroll>
             </div>
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 <div className="p-6 bg-paper border border-mist space-y-3 font-body text-13 text-forest-ink/80 shadow-sm">
                   <div className="flex justify-between border-b border-mist pb-2">
                     <span>Call</span>
-                    <span className="font-medium text-forest">+61 417 890 910</span>
+                    <span className="font-medium text-forest">+61 421 358 045</span>
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -161,7 +161,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* SECTION 4: JNF Plumbing Cairns */}
+      {/* SECTION 4: Plateau Plumbing */}
       <section className="py-20 md:py-32 border-b border-mist">
         <div className="max-w-site mx-auto px-6 md:px-12">
           <AnimateOnScroll animation="fade-up" duration={0.8}>
@@ -171,7 +171,7 @@ export default function AboutPage() {
                   Our team
                 </span>
                 <h2 className="font-display text-33 md:text-41 text-forest-ink">
-                  JNF Plumbing Cairns
+                  Plateau Plumbing
                 </h2>
               </div>
               <Link
@@ -204,7 +204,7 @@ export default function AboutPage() {
                   Plumbing work for your property
                 </h2>
                 <p className="font-body text-15 md:text-17 text-forest-ink/80 leading-relaxed mb-6">
-                  Contact JNF Plumbing Cairns to discuss your plumbing, the work required and the next steps.
+                  Contact Plateau Plumbing to discuss your plumbing, the work required and the next steps.
                 </p>
                 <div className="space-y-2 font-body text-13 text-forest-ink/70">
                   <div className="flex items-center gap-2">

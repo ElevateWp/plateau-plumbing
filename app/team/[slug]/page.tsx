@@ -67,7 +67,7 @@ export default function SinglePlumberPage({ params }: PlumberProfileProps) {
         <div className="max-w-site mx-auto px-6 md:px-12">
           <Breadcrumbs
             items={[
-              { name: 'JNF Plumbing Cairns team', path: '/team/' },
+              { name: 'Plateau Plumbing team', path: '/team/' },
               { name: plumber.name, path: `/team/${plumber.slug}/` },
             ]}
           />
@@ -152,7 +152,7 @@ export default function SinglePlumberPage({ params }: PlumberProfileProps) {
             {plumber.memberships.length > 0 && <div className="lg:col-span-6">
               <AnimateOnScroll animation="fade-up" duration={0.8} delay={0.15}>
                 <h2 className="font-display text-26 md:text-33 text-forest-ink mb-6">
-                  About JNF Plumbing Cairns
+                  About Plateau Plumbing
                 </h2>
                 <ul className="space-y-4 font-body text-15 text-forest-ink/80">
                   {plumber.memberships.map((mem, idx) => (

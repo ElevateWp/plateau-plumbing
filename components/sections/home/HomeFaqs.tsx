@@ -8,17 +8,17 @@ import { CLINIC_INFO } from '@/lib/clinic-data';
 const HOME_FAQS: AccordionItem[] = [
   {
     question: 'What services are available?',
-    answer: 'Ask about plumbing repairs and other plumbing services. Call to discuss your plumbing and the work required.',
+    answer: 'Plateau Plumbing helps with emergency leaks, hot-water systems, water filtration, outdoor showers, maintenance and renovation plumbing.',
     relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
-    question: 'What areas does JNF Plumbing Cairns service?',
-    answer: 'The team serves Cairns and surrounding areas from Cairns. Call to discuss your property and availability.',
+    question: 'What areas does Plateau Plumbing service?',
+    answer: 'The team serves the Atherton Tablelands and surrounding areas from the Atherton Tablelands. Call to discuss your property and availability.',
     relatedLink: { href: '/contact/', label: 'Contact our team →' },
   },
   {
     question: 'How do I arrange a plumbing repair?',
-    answer: 'Call +61 417 890 910 to discuss leaks, hot water, drainage or other plumbing work.',
+    answer: 'Call +61 421 358 045 to discuss leaks, hot-water systems, filtration, outdoor showers or renovation work.',
     relatedLink: { href: '/emergency-plumbing/', label: 'Explore our services →' },
   },
   {

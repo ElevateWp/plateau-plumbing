@@ -17,9 +17,9 @@ import { SERVICES } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'JNF Plumbing Cairns',
+  title: 'Plateau Plumbing',
   description:
-    'Emergency plumbing, leak repairs, hot water systems, blocked drains and plumbing inspections in Cairns. Call +61 417 890 910.',
+    'Emergency plumbing, leak repairs, hot water systems, water filtration, outdoor showers and renovation plumbing in the Atherton Tablelands. Call +61 421 358 045.',
   pathname: '/',
 });
 
@@ -55,13 +55,13 @@ export default function HomePage() {
         <TextureBackground variant="divider" className="opacity-30" />
       </div>
 
-      {/* SECTION 4: Why choose JNF Plumbing Cairns */}
+      {/* SECTION 4: Why choose Plateau Plumbing */}
       <HomeWhyUs />
 
       {/* SECTION 5: About the business */}
       <HomePlumbers />
 
-      {/* SECTION 6: Services em destaque */}
+      {/* SECTION 6: Featured plumbing services */}
       <HomeFeaturedServices />
 
       {/* SECTION 7: Before & After (Draggable Slider - Orchestrated Moment 3) */}

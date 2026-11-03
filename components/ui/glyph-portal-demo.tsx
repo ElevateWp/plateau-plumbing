@@ -27,13 +27,13 @@ export default function Demo(props: Partial<typeof settings>) {
       <style>{`
         [data-slipstream-demo] [data-gp-caption]{inset:calc(var(--gp-word-bottom,50%) + 82px) 24px auto;justify-content:center;}
         [data-slipstream-demo] [data-gp-hint]{display:none;}
-        [data-slipstream-demo] [data-gp-enter]{min-height:46px;padding:0 20px;gap:28px;background:#142b22;border:1px solid #10261d;border-radius:10px;color:#fff;font-size:13px;font-weight:500;box-shadow:0 1px 2px #10261d1a;transition:background .18s,box-shadow .18s;}
-        [data-slipstream-demo] [data-gp-enter]:hover{background:#204434;box-shadow:0 3px 8px #10261d18;}
-        [data-slipstream-demo] [data-gp-enter]:focus-visible{outline:2px solid #176247;outline-offset:4px;}
+        [data-slipstream-demo] [data-gp-enter]{min-height:46px;padding:0 20px;gap:28px;background:#006ACB;border:1px solid #003477;border-radius:10px;color:#fff;font-size:13px;font-weight:500;box-shadow:0 1px 2px #0034771a;transition:background .18s,box-shadow .18s;}
+        [data-slipstream-demo] [data-gp-enter]:hover{background:#00A6F0;box-shadow:0 3px 8px #00347718;}
+        [data-slipstream-demo] [data-gp-enter]:focus-visible{outline:2px solid #006ACB;outline-offset:4px;}
         [data-slipstream-demo] [data-gp-touch-picker]{top:auto;bottom:18px;left:50%;}
         [data-slipstream-demo] [data-gp-select]{border-color:transparent;border-radius:8px;font-size:12px;color:#626964;}
         [data-sublime-header]{position:absolute;inset:clamp(24px,4.5cqw,48px) clamp(24px,5cqw,64px) auto;display:flex;align-items:center;justify-content:space-between;gap:20px;}
-        [data-sublime-logo]{font-size:19px;font-weight:600;letter-spacing:-.065em;color:#18251e;}
+        [data-sublime-logo]{font-size:19px;font-weight:600;letter-spacing:-.065em;color:#003477;}
         [data-sublime-category]{font-size:12px;line-height:1.5;color:#71766f;}
         [data-sublime-eyebrow]{position:absolute;inset:auto 24px calc(100% - var(--gp-word-top,35%) + 32px);margin:0;text-align:center;font-size:13px;font-weight:400;line-height:1.5;letter-spacing:.005em;color:#71766f;}
         [data-sublime-support]{position:absolute;inset:calc(var(--gp-word-bottom,50%) + 32px) 24px auto;margin:0;text-align:center;font-size:16px;font-weight:400;line-height:1.5;color:#646a63;}
@@ -52,8 +52,8 @@ export default function Demo(props: Partial<typeof settings>) {
         [data-slipstream-no]{display:inline-block;margin-right:.7rem;color:rgba(251,251,250,.85);font:500 .75rem ui-monospace,monospace;letter-spacing:.08em;transform:translateY(-.1em);}
         @container(min-width:768px){[data-slipstream-features]{grid-template-columns:repeat(3,minmax(0,1fr));gap:3.5rem;}}
       `}</style>
-      {face ? <GlyphPortal word={s.word} fontFamily={face} fontWeight={700} style={{ fontFamily: face }} scrollLength={s.scrollLength} interactive={s.interactive} annotations={s.annotations} enterLabel="Meet JNF Plumbing Cairns" front={<>
-          <div data-sublime-header><span data-sublime-logo>JNF Plumbing Cairns</span><span data-sublime-category>Plumbing projects for your property</span></div>
+      {face ? <GlyphPortal word={s.word} fontFamily={face} fontWeight={700} style={{ fontFamily: face }} scrollLength={s.scrollLength} interactive={s.interactive} annotations={s.annotations} enterLabel="Meet Plateau Plumbing" front={<>
+          <div data-sublime-header><span data-sublime-logo>Plateau Plumbing</span><span data-sublime-category>Plumbing projects for your property</span></div>
           <p data-sublime-eyebrow>Plumbing services for your property.</p>
           <p data-sublime-support>Explore our plumbing services.</p>
           <span data-sublime-scroll>Scroll to explore ↓</span>

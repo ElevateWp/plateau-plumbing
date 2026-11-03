@@ -9,9 +9,9 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Contact JNF Plumbing Cairns',
+  title: 'Contact Plateau Plumbing',
   description:
-    'Call JNF Plumbing Cairns on +61 417 890 910 to discuss your plumbing.',
+    'Call Plateau Plumbing on +61 421 358 045 to discuss your plumbing.',
   pathname: '/contact/',
 });
 
@@ -31,9 +31,9 @@ export default function ContactPage() {
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 uppercase tracking-wider font-medium">
                   Contact and quotes
                 </span>
-                <WordRevealH1 text="Contact JNF Plumbing Cairns." />
+                <WordRevealH1 text="Contact Plateau Plumbing." />
                 <p className="font-body text-17 md:text-21 text-forest-ink/90 leading-relaxed mt-6 max-w-2xl">
-                  Call JNF Plumbing Cairns to discuss leaks, hot water, blocked drains, inspections and availability.
+                  Call Plateau Plumbing to discuss emergency leaks, hot-water systems, filtration, outdoor showers and availability.
                 </p>
               </AnimateOnScroll>
             </div>
@@ -110,7 +110,7 @@ export default function ContactPage() {
                     {CLINIC_INFO.primaryLocation.directions}
                   </address>
                   <div className="p-4 bg-mist/40 border-l-2 border-forest font-body text-13 text-forest-ink/80 leading-relaxed">
-                    Based in Cairns and serving Cairns and surrounding areas. Call to discuss availability.
+                    Based in the Atherton Tablelands and serving the Atherton Tablelands and surrounding areas. Call to discuss availability.
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -145,7 +145,7 @@ export default function ContactPage() {
                       {CLINIC_INFO.name}
                     </h3>
                     <p className="font-body text-13 text-paper/80 leading-relaxed">
-                    Serving Cairns and surrounding areas from Cairns. Call to discuss your property.
+                    Serving the Atherton Tablelands and surrounding areas from the Atherton Tablelands. Call to discuss your property.
                     </p>
                   </div>
 

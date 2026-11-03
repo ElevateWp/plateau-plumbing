@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Request a quote',
   description:
-    'Contact JNF Plumbing Cairns to discuss your project and request a quote. Call +61 417 890 910.',
+    'Contact Plateau Plumbing to discuss your project and request a quote. Call +61 421 358 045.',
   pathname: '/quote/',
 });
 

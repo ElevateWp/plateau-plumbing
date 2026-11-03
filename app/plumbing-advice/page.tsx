@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Plumbing advice',
   description:
-    'Plumbing advice information from JNF Plumbing Cairns.',
+    'Plumbing advice information from Plateau Plumbing.',
   pathname: '/plumbing-advice/',
 });
 

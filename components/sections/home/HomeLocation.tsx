@@ -33,7 +33,7 @@ export default function HomeLocation() {
                   Plumbing service
                 </p>
                 <p className="font-body text-15 md:text-17 text-forest-ink/90 leading-relaxed mb-4">
-                  Based in Cairns, JNF Plumbing Cairns serves Cairns, Brinsmead and surrounding areas. Call to discuss your plumbing and current availability.
+                  Based in the Atherton Tablelands, Plateau Plumbing serves the Atherton Tablelands and surrounding areas. Call to discuss your plumbing and current availability.
                 </p>
                 {CLINIC_INFO.primaryLocation.landmarks && (
                   <p className="font-body text-13 text-forest-ink/70 leading-relaxed">
@@ -42,7 +42,7 @@ export default function HomeLocation() {
                 )}
                 <div className="flex flex-wrap gap-2 mt-4">
                   {CLINIC_INFO.identityHighlights.map((highlight) => (
-                    <span key={highlight} className="bg-[#F3F6FA] border border-[#D9E2EF] px-3 py-1.5 text-12 text-[#101828]">
+                    <span key={highlight} className="bg-[#F2F7FC] border border-[#DCE8F3] px-3 py-1.5 text-12 text-[#10243E]">
                       {highlight}
                     </span>
                   ))}
@@ -94,7 +94,7 @@ export default function HomeLocation() {
                     className="object-cover"
                 />
                 <div className="absolute bottom-3 left-3 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-3 py-1 font-medium border border-mist/50">
-                  JNF Plumbing Cairns
+                  Plateau Plumbing
                 </div>
               </div>
             </AnimateOnScroll>

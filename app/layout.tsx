@@ -11,19 +11,19 @@ import { BASE_URL, generateLocalBusinessSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'JNF Plumbing Cairns | Cairns plumber',
+    default: 'Plateau Plumbing | Atherton Tablelands plumber',
     template: '%s',
   },
   description:
-    'JNF Plumbing Cairns provides emergency plumbing, leak repairs, hot water systems and drainage services across Cairns. Call +61 417 890 910.',
+    'Plateau Plumbing provides 24-hour leak repairs, hot-water systems, water filtration, outdoor showers and renovation plumbing across the Atherton Tablelands. Call +61 421 358 045.',
   keywords: [
-    'JNF Plumbing Cairns',
-    'plumbing repairs Cairns',
-    'blocked drain clearing Cairns and surrounding areas',
-    'hot water system repairs Cairns',
-    'leak repairs Cairns',
+    'Plateau Plumbing',
+    'plumber Atherton Tablelands',
+    'emergency leak repairs Atherton Tablelands',
+    'hot-water system repairs Atherton Tablelands',
+    'water filtration and outdoor shower installation',
   ],
-  authors: [{ name: 'JNF Plumbing Cairns' }],
+  authors: [{ name: 'Plateau Plumbing' }],
   icons: {
     icon: [
       { url: '/favicon.png', type: 'image/png' },
@@ -50,7 +50,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#F3F6FA] selection:text-[#101828]">
+      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#F2F7FC] selection:text-[#10243E]">
         <PagePreloader />
         <SiteTextReveal />
         <JsonLd data={generateLocalBusinessSchema()} />

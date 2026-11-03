@@ -49,7 +49,7 @@ export default function HomeHero() {
   return (
     <div
       data-slipstream-demo
-      className="-mt-[88px] sm:-mt-[100px] md:-mt-[112px] relative w-full bg-white border-b border-[#D9E2EF] overflow-clip"
+      className="-mt-[88px] sm:-mt-[100px] md:-mt-[112px] relative w-full bg-white border-b border-[#DCE8F3] overflow-clip"
       style={{
         width: "100%",
         containerType: "inline-size",
@@ -74,8 +74,8 @@ export default function HomeHero() {
           min-height:48px;
           padding:0 28px;
           gap:20px;
-          background:#101828;
-          border:1px solid #062B70;
+          background:#006ACB;
+          border:1px solid #006ACB;
           border-radius:9999px;
           color:#ffffff;
           font-size:14px;
@@ -85,23 +85,23 @@ export default function HomeHero() {
           transition:all .2s ease;
         }
         [data-slipstream-demo] [data-gp-enter]:hover{
-          background:#062B70;
+          background:#00A6F0;
           box-shadow:0 8px 26px rgba(17,17,17,0.36);
           transform:translateY(-1px);
         }
         [data-slipstream-demo] [data-gp-enter]:focus-visible{
-          outline:2px solid #101828;
+          outline:2px solid #10243E;
           outline-offset:4px;
         }
         [data-slipstream-demo] [data-gp-touch-picker]{top:auto;bottom:18px;left:50%;}
         [data-slipstream-demo] [data-gp-select]{
-          border:1px solid #D9E2EF;
+          border:1px solid #DCE8F3;
           border-radius:8px;
           font-size:12px;
-          color:#101828;
+          color:#10243E;
           background:#ffffff;
         }
-        [data-ch-hero-header]{position:absolute;inset:clamp(24px,4.5cqw,48px) clamp(24px,5cqw,64px) auto;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#101828;}
+        [data-ch-hero-header]{position:absolute;inset:clamp(24px,4.5cqw,48px) clamp(24px,5cqw,64px) auto;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#10243E;}
         [data-ch-hero-brand]{font-size:19px;font-weight:700;letter-spacing:-.045em;}
         [data-ch-hero-category]{font-size:12px;line-height:1.5;color:#64748B;text-align:right;}
         [data-ch-hero-intro]{position:absolute;inset:auto 24px calc(100% - var(--gp-word-top,35%) + 32px);margin:0;max-width:none;text-align:center;color:#64748B;font-size:13px;font-weight:500;line-height:1.5;letter-spacing:.01em;}
@@ -124,7 +124,7 @@ export default function HomeHero() {
         [data-slipstream-demo] [data-gp-content]{
           padding:6rem clamp(1.25rem,5cqw,5rem) 6.5rem;
           font-family:inherit;
-          background:#101828;
+          background:#10243E;
           color:#ffffff;
         }
         [data-slipstream-demo] section,[data-slipstream-demo] [data-gp-caption]{font-family:inherit;}
@@ -166,14 +166,14 @@ export default function HomeHero() {
         }
         [data-slipstream-feature] p{
           margin:.55rem 0 0;
-          color:#D9E2EF;
+          color:#DCE8F3;
           font-size:.9375rem;
           line-height:1.55;
         }
         [data-slipstream-no]{
           display:inline-block;
           margin-right:.7rem;
-          color:#101828;
+          color:#10243E;
           font:700 .8125rem ui-monospace,monospace;
           letter-spacing:.08em;
           transform:translateY(-.1em);
@@ -188,14 +188,14 @@ export default function HomeHero() {
 
       {face ? (
         <GlyphPortal
-          word="JNF PLUMBING"
+          word="PLATEAU PLUMBING"
           fontFamily={face}
           fontWeight={700}
           style={{
             fontFamily: face,
             "--gp-paper": "#FFFFFF",
-            "--gp-ink": "#101828",
-            "--gp-field": "#101828",
+            "--gp-ink": "#10243E",
+            "--gp-field": "#10243E",
             "--gp-foreground": "#FFFFFF",
           }}
           scrollLength={2.2}
@@ -244,7 +244,7 @@ export default function HomeHero() {
                 className="absolute inset-0"
                 style={{
                   background:
-                    "radial-gradient(circle at 18% 12%, rgba(0,0,0,0.16), transparent 38%), radial-gradient(circle at 82% 22%, rgba(0,0,0,0.12), transparent 32%), linear-gradient(135deg, rgba(17,17,17,0.94) 0%, rgba(17,17,17,0.9) 50%, rgba(17,17,17,0.96) 100%)",
+                    "radial-gradient(circle at 18% 12%, rgba(0,0,0,0.16), transparent 38%), radial-gradient(circle at 82% 22%, rgba(0,0,0,0.12), transparent 32%), linear-gradient(135deg, rgba(6,35,74,0.94) 0%, rgba(6,35,74,0.9) 50%, rgba(6,35,74,0.96) 100%)",
                 }}
               />
             </div>
@@ -252,12 +252,12 @@ export default function HomeHero() {
           front={
             <>
               <div data-ch-hero-header>
-                <span data-ch-hero-brand>JNF Plumbing Cairns</span>
-                <span data-ch-hero-category>Cairns, Queensland<br />Call +61 417 890 910</span>
+                <span data-ch-hero-brand>Plateau Plumbing</span>
+                <span data-ch-hero-category>Atherton Tablelands, Queensland<br />Call +61 421 358 045</span>
               </div>
-              <p data-ch-hero-intro>Plumbing repairs across Cairns and surrounding areas.</p>
+              <p data-ch-hero-intro>24-hour plumbing help across the Atherton Tablelands.</p>
               <p data-ch-hero-support>
-                Burst pipes, leaks, hot water, blocked drains and plumbing inspections. Call Jake to discuss the problem.
+                Emergency leaks, hot water systems, water filtration and renovation plumbing. Call Todd to discuss the problem.
               </p>
               <span data-sublime-scroll>Scroll to explore ↓</span>
             </>
@@ -265,7 +265,7 @@ export default function HomeHero() {
         >
           <div data-slipstream-copy>
             <h2>
-              Plumbing repairs across Cairns and surrounding areas.
+              24-hour plumbing help across the Atherton Tablelands.
             </h2>
 
             <div data-slipstream-features>
@@ -275,27 +275,27 @@ export default function HomeHero() {
                   Plumbing
                 </h3>
                 <p>
-                  Fast help with plumbing repairs and leaks.
+                  Emergency leak repairs and prompt plumbing help.
                 </p>
               </div>
 
               <div data-slipstream-feature>
                 <h3>
                   <span data-slipstream-no>02</span>
-                  Blocked drain clearing and repairs
+                  Hot water and water filtration
                 </h3>
                 <p>
-                  Hot water systems, blocked drains and bathroom plumbing.
+                  Hot-water repairs, replacements and home filtration.
                 </p>
               </div>
 
               <div data-slipstream-feature>
                 <h3>
                   <span data-slipstream-no>03</span>
-                  Talk through your property
+                  Maintenance and renovations
                 </h3>
                 <p>
-                  Serving Cairns, Brinsmead and nearby suburbs.
+                  Quality workmanship for maintenance, fitouts and renovations.
                 </p>
               </div>
             </div>
@@ -303,7 +303,7 @@ export default function HomeHero() {
             <div className="flex flex-wrap items-center gap-4 pt-4">
               <Link
                 href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`}
-                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#062B70] px-7 font-body text-sm font-semibold text-white shadow-[0_6px_20px_rgba(17,17,17,0.28)] transition-all hover:bg-[#164A9C] hover:shadow-[0_8px_26px_rgba(17,17,17,0.36)]"
+                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#006ACB] px-7 font-body text-sm font-semibold text-white shadow-[0_6px_20px_rgba(17,17,17,0.28)] transition-all hover:bg-[#00A6F0] hover:shadow-[0_8px_26px_rgba(17,17,17,0.36)]"
               >
                 Call now
                 <ArrowRight size={16} />
@@ -312,7 +312,7 @@ export default function HomeHero() {
                 href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`}
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-6 font-body text-sm font-semibold text-white transition-all hover:bg-white/20"
               >
-                <Phone size={15} className="text-[#DCE8F7]" />
+                <Phone size={15} className="text-[#D9EEFF]" />
                 Contact us
               </a>
               <a
@@ -332,7 +332,7 @@ export default function HomeHero() {
             height: "80vh",
             display: "grid",
             placeItems: "center",
-            color: "#101828",
+            color: "#10243E",
             fontSize: 14,
             fontWeight: 500,
           }}

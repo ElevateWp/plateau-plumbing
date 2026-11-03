@@ -5,23 +5,23 @@
 @layer base {
   :root {
     --paper: #FFFFFF;
-    --paper-secondary: #F3F6FA;
-    --forest: #062B70;
-    --forest-ink: #101828;
-    --black-accent: #001B4D;
+    --paper-secondary: #F2F7FC;
+    --forest: #06234A;
+    --forest-ink: #10243E;
+    --black-accent: #003477;
     --secondary-text: #64748B;
-    --primary-brand: #062B70;
-    --brand-hover: #164A9C;
-    --navy-accent: #001B4D;
-    --soft-blue: #DCE8F7;
-    --soft-orange: #F3F6FA;
+    --primary-brand: #006ACB;
+    --brand-hover: #00A6F0;
+    --navy-accent: #003477;
+    --soft-blue: #D9EEFF;
+    --soft-orange: #F2F7FC;
     --lime: #FFFFFF;
-    --orange: #DCE8F7;
-    --accent-yellow: #DCE8F7;
-    --mist: #D9E2EF;
-    --silver-accent: #DCE8F7;
+    --orange: #D9EEFF;
+    --accent-yellow: #D9EEFF;
+    --mist: #DCE8F3;
+    --silver-accent: #D9EEFF;
     --metallic-grey: #64748B;
-    --deep-section: #062B70;
+    --deep-section: #06234A;
     --font-display: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
